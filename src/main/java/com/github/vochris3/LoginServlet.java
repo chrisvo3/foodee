@@ -23,6 +23,12 @@ public class LoginServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
         out.println("<html>");
         out.println("<head>");
+        out.println("<title>First Servlet WebApp</title>");
+        out.println("</head>");
+        out.println("<body>");
+        out.println("<h1>Chris First Servlet WebApp</h1>");
+        out.println("</body>");
+        out.println("</html>");
     }
 
 }
